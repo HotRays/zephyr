@@ -1,0 +1,10 @@
+identifier: nrf51_hackble
+name: nRF51-hackble
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gccarmemb
+ram: 32
+supported:
+  - ble
